@@ -1,7 +1,7 @@
 {
-    "id": "ldm-stac-catalog",
+    "id": "Liam's Sample STAC Catalog",
     "stac_version": "1.0.0-beta.2",
-    "description": "This catalog is a basic demonstration catalog highlighting Vermont Agriculture.",
+    "description": "This catalog is a basic demonstration catalog highlighting Vermont agriculture, wetlands, and shublands.",
     "links": [
         {
             "rel": "root",
