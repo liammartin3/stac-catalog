@@ -1,0 +1,59 @@
+{
+    "type": "Feature",
+    "stac_version": "1.0.0-beta.2",
+    "id": "Vermont Shrublands 2022",
+    "properties": {
+        "datetime": "2025-05-29T14:01:54.748071Z"
+    },
+    "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    -71.50417783403111,
+                    42.722637776925026
+                ],
+                [
+                    -71.46528086672012,
+                    45.01368106251443
+                ],
+                [
+                    -73.45416008548118,
+                    45.01438258928966
+                ],
+                [
+                    -73.41829037656555,
+                    42.72328567821074
+                ],
+                [
+                    -71.50417783403111,
+                    42.722637776925026
+                ]
+            ]
+        ]
+    },
+    "links": [
+        {
+            "rel": "root",
+            "href": "../catalog.json",
+            "type": "application/json"
+        },
+        {
+            "rel": "parent",
+            "href": "../catalog.json",
+            "type": "application/json"
+        }
+    ],
+    "assets": {
+        "image": {
+            "href": "https://stac-data.s3.us-east-2.amazonaws.com/STATEWIDE_2022_50cm_LANDCOVER_Shrublands.tif",
+            "type": "image/tiff; application=geotiff"
+        }
+    },
+    "bbox": [
+        -73.45416008548118,
+        42.722637776925026,
+        -71.46528086672012,
+        45.01836150913144
+    ]
+}
