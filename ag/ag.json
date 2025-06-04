@@ -3,7 +3,9 @@
     "stac_version": "1.0.0-beta.2",
     "id": "Vermont Agriculture 2022",
     "properties": {
-        "datetime": "2025-05-29T14:01:54.748071Z"
+        "datetime": "2025-05-29T14:01:54.748071Z",
+        "dcat3:theme": "agriculture",
+        "dcat3:publisher": "State of Vermont"
     },
     "geometry": {
         "type": "Polygon",
