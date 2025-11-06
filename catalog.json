@@ -10,7 +10,7 @@
         },
         {
             "rel": "item",
-            "href": "./ag/ag.json",
+            "href": "./agriculture/agriculture.json",
             "type": "application/json"
         },
         {
