@@ -1,7 +1,7 @@
 {
     "id": "Liam's Sample STAC Catalog",
     "stac_version": "1.0.0-beta.2",
-    "description": "This catalog is a basic demonstration catalog highlighting Vermont agriculture, wetlands, and shublands.",
+    "description": "This STAC catalog is a basic demonstration highlighting Vermont agriculture, wetlands, and shublands.\n\nThis catalog was created using the following steps:\n\n • Used rasterio to read raster bounds, pyproj to reproject coordinates to WGS84, and shapely to create the footprint polygon.\n\n • Created STAC Items for each raster using pystac, attached geometry and bounding box from the previous step.\n\n • Added each raster as an asset to its item with pystac, then created a catalog with pystac.",
     "links": [
         {
             "rel": "root",

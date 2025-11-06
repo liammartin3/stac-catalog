@@ -3,9 +3,51 @@
     "stac_version": "1.0.0-beta.2",
     "id": "Vermont Agriculture 2022",
     "properties": {
-        "datetime": "2025-05-29T14:01:54.748071Z",
-        "dcat3:theme": "agriculture",
-        "dcat3:publisher": "State of Vermont"
+        "title": "Vermont Agriculture Land Cover 2022",
+        "description": "Agricultural land cover classification for Vermont",
+        "datetime": "2022-01-01T00:00:00Z",
+        "created": "2025-05-29T14:01:54.748071Z",
+        "license": "proprietary",
+        "providers": [
+            {
+                "name": "State of Vermont",
+                "roles": ["producer", "licensor"]
+            }
+        ],
+        "proj:epsg": 4326,
+        "proj:geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -71.50417783403111,
+                        42.722637776925026
+                    ],
+                    [
+                        -71.46528086672012,
+                        45.01368106251443
+                    ],
+                    [
+                        -73.45416008548118,
+                        45.01438258928966
+                    ],
+                    [
+                        -73.41829037656555,
+                        42.72328567821074
+                    ],
+                    [
+                        -71.50417783403111,
+                        42.722637776925026
+                    ]
+                ]
+            ]
+        },
+        "proj:bbox": [
+            -73.45416008548118,
+            42.722637776925026,
+            -71.46528086672012,
+            45.01836150913144
+        ]
     },
     "geometry": {
         "type": "Polygon",
@@ -49,7 +91,10 @@
     "assets": {
         "image": {
             "href": "https://stac-data.s3.us-east-2.amazonaws.com/STATEWIDE_2022_50cm_LANDCOVER_Agriculture.tif",
-            "type": "image/tiff; application=geotiff"
+            "type": "image/tiff; application=geotiff; profile=cloud-optimized",
+            "roles": ["data"],
+            "title": "Agriculture Land Cover COG",
+            "proj:epsg": 4326
         }
     },
     "bbox": [
